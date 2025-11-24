@@ -1,0 +1,13 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Virtual Environments (Modify if your folder is named differently)
+venv/
+env/
+.env
+
+# Data files (Optional: Keep these if you want the data on GitHub, remove if you want only code)
+*.db
+*.xlsx
+# We keep CSV for the demo, but usually, we ignore data too.
