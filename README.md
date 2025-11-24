@@ -37,3 +37,25 @@ This project automates the process of market research by:
 ```bash
 git clone [https://github.com/ntokoz078/job-market-analysis.git](https://github.com/ntokozo078/job-market-analysis.git)
 cd job-market-analysis
+
+2. Install dependencies
+Bash
+
+pip install -r requirements.txt
+3. Run the Dashboard
+Bash
+
+streamlit run dashboard.py
+
+
+
+
+
+🔮 Future Improvements
+Add scheduling (Airflow/Cron) to run the scraper automatically every morning.
+
+Deploy the application to the cloud (Streamlit Cloud or AWS).
+
+Expand skill matching using Natural Language Processing (NLP).
+
+
